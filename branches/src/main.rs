@@ -1,9 +1,6 @@
 fn main() {
-    let number = 7;
-
-    if number < 5 {
-        println!("condition was true");       // 条件は真でした
-    } else {
-        println!("condition was false");      // 条件は偽でした
+    for number in (1..4).rev() {
+        println!("{}!", number);
     }
+    println!("LIFTOFF!!!");
 }
